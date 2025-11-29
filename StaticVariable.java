@@ -7,7 +7,7 @@ If you change the value of static variable using one object it will change all t
 class Mobile{
     String brand;
     int price;
-    static String name;
+    static String name;//static variable
     public void show(){
         System.out.println(brand+" : "+price+" : "+name);
     }
@@ -18,7 +18,7 @@ public class StaticVariable {
         Mobile m1=new Mobile();
         m1.brand="Apple";
         m1.price=70000;
-        Mobile.name="Smartphone";
+        Mobile.name="Smartphone";//calling static variable
 
         Mobile m2=new Mobile();
         m2.brand="Realme";
