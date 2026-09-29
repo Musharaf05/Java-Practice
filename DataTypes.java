@@ -28,7 +28,8 @@ public class DataTypes {
         float mark=85.7f;//4 bytes
         double marks=90.5;//8 bytes
     //Character
-        char c='m';//2 bytes (It can hold only one character,it can be a letter, digit or special character, it should be enclosed in single quotes)
+        char c='m';/*2 bytes (It can hold only one character,it can be a letter, digit or special character,
+                              it should be enclosed in single quotes)*/
     //Boolean
         boolean b=true;
         System.out.println(by);
